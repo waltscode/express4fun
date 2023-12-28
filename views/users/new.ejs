@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-US-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/users" method="POST">
+        <label>First Name yo
+            <input type="text" name="firstName" value="<%= locals.firstName %>" />
+        </label>
+        <button type="submit">Create new user!</button>
+    </form>
+
+    <!-- // directing the browser to http://localhost:3000/users/new ina GET request will res.render'users/new.ejs -->
+</body>
+
+</html>
